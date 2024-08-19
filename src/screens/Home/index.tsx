@@ -19,11 +19,18 @@ export default function Home() {
         textAlign="center"
         fontFamily="regular"
         color="red_dark"
-        lineHeight="xs"
+        lineHeight="lg"
       >
         Ola
       </Typography>
-      <Typography>Ola</Typography>
+      <Typography
+        textAlign="left"
+        fontFamily="bold"
+        color="green_mid"
+        lineHeight="lg"
+      >
+        Ola
+      </Typography>
     </Container>
   );
 }
