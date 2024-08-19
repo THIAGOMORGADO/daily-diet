@@ -1,10 +1,14 @@
-import { View } from 'react-native';
-import { Container } from './styles';
+import { View } from "react-native";
+import { Container, Avatar, Logo } from "./styles";
+
 
 export default function Header() {
- return (
-   <Container>
-    
-   </Container>
+  return (
+    <Container>
+      <Avatar />
+      <Logo />
+
+     
+    </Container>
   );
 }
