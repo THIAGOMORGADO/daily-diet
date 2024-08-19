@@ -7,8 +7,6 @@ export default function Header() {
     <Container>
       <Avatar />
       <Logo />
-
-     
     </Container>
   );
 }
